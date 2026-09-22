@@ -33,7 +33,7 @@ def main():
     """
 
     from langchain_deepseek import ChatDeepSeek
-    model = ChatDeepSeek(model="deepseek-chat", api_key="sk-cff8a797d9874412a529768e54c13f57")
+    model = ChatDeepSeek(model="deepseek-chat", api_key="sk-xxx")
 
     model_with_tools = model.bind_tools([get_weather])
 
