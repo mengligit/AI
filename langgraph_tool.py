@@ -5,7 +5,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 
 # Initialize LLM
 from langchain_deepseek import ChatDeepSeek
-llm = ChatDeepSeek(model="deepseek-chat", api_key="sk-cff8a797d9874412a529768e54c13f57")
+llm = ChatDeepSeek(model="deepseek-chat", api_key="sk-xxx")
 
 
 # Routing function
