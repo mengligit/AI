@@ -4,7 +4,7 @@ from langchain.tools import tool
 # Initialize a large model
 
 from langchain_deepseek import ChatDeepSeek
-model = ChatDeepSeek(model="deepseek-chat", api_key="sk-cff8a797d9874412a529768e54c13f57")
+model = ChatDeepSeek(model="deepseek-chat", api_key="sk-xxx")
 
 #@tool
 def get_weather_err(city: str): #
