@@ -61,7 +61,7 @@ def main() -> None:
 
     try:
         from langchain_deepseek import ChatDeepSeek
-        model = ChatDeepSeek(model="deepseek-chat", api_key="sk-cff8a797d9874412a529768e54c13f57")
+        model = ChatDeepSeek(model="deepseek-chat", api_key="sk-xxx")
 
         chain = chat_template_1 | model | StrOutputParser()
 
